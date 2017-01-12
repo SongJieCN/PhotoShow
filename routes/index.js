@@ -10,4 +10,8 @@ router.get('/scrumb', function(req, res, next) {
     res.render('scrumb', { title: 'Express' });
 });
 
+router.get('/timeline', function(req, res, next) {
+    res.render('scrumb', { title: 'Express' });
+});
+
 module.exports = router;
