@@ -14,4 +14,8 @@ router.get('/timeline', function(req, res, next) {
     res.render('timeline', { title: 'Express' });
 });
 
+router.get('/mall', function(req, res, next) {
+    res.render('mall', { title: 'Express' });
+});
+
 module.exports = router;
