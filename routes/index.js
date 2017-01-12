@@ -11,7 +11,7 @@ router.get('/scrumb', function(req, res, next) {
 });
 
 router.get('/timeline', function(req, res, next) {
-    res.render('scrumb', { title: 'Express' });
+    res.render('timeline', { title: 'Express' });
 });
 
 module.exports = router;
